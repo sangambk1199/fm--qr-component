@@ -1,0 +1,25 @@
+.qr-card {
+    width: 250px;
+    background-color: #fff;
+    padding: 12px;
+    border-radius: 18px;
+}
+
+.qr-card__img {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.qr-card__img img {
+    display: block;
+    width: 100%;
+}
+
+.qr-card__body strong {
+    color: hsl(218, 44%, 22%);
+}
+
+.qr-card__body p {
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+}
