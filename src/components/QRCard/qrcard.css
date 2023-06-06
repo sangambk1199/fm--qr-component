@@ -15,11 +15,19 @@
     width: 100%;
 }
 
+.qr-card__body {
+    text-align: center;
+    padding: 24px 0;
+}
+
 .qr-card__body strong {
     color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    font-size: 18px;
 }
 
 .qr-card__body p {
-    font-size: 15px;
+    font-size: 13px;
     color: hsl(220, 15%, 55%);
+    margin-bottom: 0;
 }
